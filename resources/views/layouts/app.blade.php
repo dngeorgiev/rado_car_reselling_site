@@ -6,15 +6,12 @@
 
         <title>Laravel</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
         <!-- Styles -->
-        <link rel="stylesheet" type="text/css" href="css/app.css">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     </head>
     <body>
-        <header>
+        <header id="header">
             @include('includes.header')
         </header>
         <div id="main" class="row">
@@ -23,5 +20,8 @@
         <footer class="row">
             @include('includes.footer')
         </footer>
+
+        <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
