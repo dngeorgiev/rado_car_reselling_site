@@ -1,0 +1,21 @@
+.navigation-holder {
+    background-color: $secondary-bg-color;
+    opacity: 0.8;
+}
+
+.navbar-light {
+    .custom-navbar-brand {
+        color: $tertiary-text-color;
+    }
+
+    .navbar-nav {
+        .custom-nav-link {
+            color: $tertiary-text-color;
+            text-transform: uppercase;
+
+            &.active {
+                color: $secondary-text-color;
+            }
+        }
+    }
+}

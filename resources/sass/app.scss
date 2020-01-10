@@ -1,1 +1,9 @@
-//
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "colors";
+@import "includes/header";
+@import "includes/navigation";
+
+body {
+    font-family: "Roboto", Arial, serif;
+}
