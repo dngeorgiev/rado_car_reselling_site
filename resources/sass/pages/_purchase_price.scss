@@ -1,0 +1,88 @@
+@import "node_modules/dropzone/dist/min/dropzone.min";
+
+#online-evaluation {
+    background-color: $white-bg-color;
+    padding: 80px 0;
+
+    #online-evaluation-form {
+        padding: 50px 0;
+    }
+}
+
+.purchase-price-cards-holder {
+    padding: 40px 0;
+
+    .price-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: -9px 9px 9px -2px rgba(0, 0, 0, 0.33);
+        min-height: 300px;
+
+        .price-number {
+            font-size: 3rem;
+            color: $secondary-text-color;
+            font-weight: 500;
+        }
+
+        .price-text {
+            font-size: 1.375rem;
+            text-align: center;
+            font-weight: 300;
+        }
+    }
+}
+
+$float-labels: (
+    border-width: 0px,
+    border-radius: 0px,
+    color-background: transparent,
+    color-background-active: transparent,
+    color-background-focus: transparent,
+    color-placeholder: #969696,
+    color-text: $primary-text-color,
+    color-text-focus: $primary-text-color,
+    font-size: 0.9rem,
+    margin-bottom: 35px
+);
+
+.fl-input,
+.fl-textarea,
+.fl-select {
+    border-bottom: 1px solid $primary-text-color !important;
+}
+
+.fl-textarea {
+    min-height: 80px;
+}
+
+.fl-form {
+    &.fl-style-1 {
+        .fl-is-active {
+            label {
+                &.fl-label {
+                    top: -18px !important;
+                }
+            }
+        }
+    }
+}
+
+.fl-form {
+    .fl-wrap-select {
+        &:after {
+            content: "\f078" !important;
+            font-family: "Font Awesome\ 5 Free" !important;
+            font-weight: 900 !important;
+            background: none !important;
+            top: 8px !important;
+            pointer-events: none !important;
+        }
+    }
+}
+
+@import "../../../node_modules/float-labels.js/src/float-labels.scss";

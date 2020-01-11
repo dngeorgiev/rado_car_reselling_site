@@ -1,0 +1,21 @@
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: $secondary-bg-color;
+
+    .contacts-holder {
+        color: $tertiary-text-color;
+        text-align: center;
+        font-weight: 300;
+
+        .address {
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: $secondary-text-color;
+        }
+    }
+}

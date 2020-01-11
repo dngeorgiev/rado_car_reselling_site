@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('layouts/app');
+    return view('pages/home');
 });
+
+// Route::get('/', 'UsersController@index');
+// Route::post('/users/fileupload/', 'UsersController@fileUpload')->name('users.fileupload');

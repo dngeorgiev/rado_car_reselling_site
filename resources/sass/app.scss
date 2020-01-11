@@ -1,12 +1,56 @@
 @import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid";
 
 @import "common/colors";
 @import "common/buttons";
 
 @import "includes/header";
 @import "includes/navigation";
+@import "includes/footer";
+
+@import "pages/home";
+@import "pages/about_us";
+@import "pages/purchase_price";
 
 body {
     font-family: "Roboto", Arial, serif;
     font-size: 16px;
+    background-color: $primary-bg-color;
+}
+
+.section-inner {
+    margin: 80px 0;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: $primary-text-color;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    border-bottom: 2px solid $primary-text-color;
+}
+
+.text {
+    padding: 20px 0;
+    font-size: 1.125rem;
+}
+
+.custom-ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+
+    li {
+        padding: 6px 0;
+    }
+
+    .list-icon {
+        margin-right: 15px;
+
+        i {
+            font-size: 1.2rem;
+        }
+    }
 }

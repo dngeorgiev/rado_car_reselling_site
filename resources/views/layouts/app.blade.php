@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+
         <title>Laravel</title>
 
         <!-- Styles -->
@@ -14,10 +16,10 @@
         <header id="header">
             @include('includes.header')
         </header>
-        <div id="main" class="row">
-                @yield('content')
-        </div>
-        <footer class="row">
+        <main id="main">
+            @yield('content')
+        </main>
+        <footer id="footer">
             @include('includes.footer')
         </footer>
 
