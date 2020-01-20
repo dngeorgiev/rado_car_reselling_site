@@ -11,9 +11,19 @@
 |
 */
 
+Route::get('/about-us', function () {
+    return view('pages/about_us');
+});
+
+Route::get('/purchase-price', function () {
+    return view('pages/purchase_price');
+});
+
 Route::get('/', function () {
     return view('pages/home');
 });
+
+
 
 // Route::get('/', 'UsersController@index');
 // Route::post('/users/fileupload/', 'UsersController@fileUpload')->name('users.fileupload');

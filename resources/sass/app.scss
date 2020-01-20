@@ -35,6 +35,18 @@ body {
 .text {
     padding: 20px 0;
     font-size: 1.125rem;
+
+    .text-bold {
+        font-weight: 500;
+    }
+
+    .text-italic {
+        font-style: italic;
+    }
+
+    .text-underline {
+        text-decoration: underline;
+    }
 }
 
 .custom-ul {

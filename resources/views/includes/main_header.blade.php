@@ -1,4 +1,4 @@
-<div class="header-content-holder">
+<div class="main-header-content-holder">
     @include('includes.navigation')
 
     <div class="container">

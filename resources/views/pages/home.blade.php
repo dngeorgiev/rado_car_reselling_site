@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('header')
+    @include('includes.main_header')
+@endsection
+
 @section('content')
     <section id="purpose-intro-box">
         <div class="container">

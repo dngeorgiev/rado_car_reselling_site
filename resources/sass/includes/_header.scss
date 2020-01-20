@@ -1,27 +1,52 @@
 #header {
-  .header-content-holder {
-    background-image: url("images/photo-of-red-suv-on-dirt-road-1592261.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-  }
-
-  .main-page-title-holder {
-    padding: 60px 50px;
-    background-color: rgba(255, 255, 255, 0.6);
-    transform: translateY(70px);
-  }
-
-  .main-page-title {
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    margin-bottom: 40px;
-
-    .title-bolder {
-      font-weight: 900;
-      font-style: italic;
+    // Main header
+    .main-header-content-holder {
+        background-image: url("images/backgrounds/photo-of-red-suv-on-dirt-road-1592261.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
     }
-  }
+
+    .main-page-title-holder {
+        padding: 60px 50px;
+        background-color: rgba(255, 255, 255, 0.6);
+        transform: translateY(70px);
+
+        .main-page-title {
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin-bottom: 40px;
+
+            .title-bolder {
+                font-weight: 900;
+                font-style: italic;
+            }
+        }
+    }
+
+    .header-content-holder {
+        background-image: url("images/backgrounds/jesse-collins-lrmo2hlFYE4-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    // Secondary header
+    .page-title-holder {
+        min-height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .page-title {
+            text-transform: uppercase;
+            width: 100%;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 15px 0;
+            font-size: 2rem;
+        }
+    }
 }
