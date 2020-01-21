@@ -1,35 +1,37 @@
 #about-us-intro-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
-    padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  padding: 0 100px;
 
-    p {
-        font-size: 1.25rem;
-        text-align: center;
+  p {
+    font-size: 1.25rem;
+    text-align: center;
 
-        span {
-            text-transform: uppercase;
-            color: $secondary-text-color;
-            font-weight: 500;
-        }
+    span {
+      font-weight: 500;
     }
+  }
 }
 
 .requirements-box {
-    background-color: $white-bg-color;
-    padding: 40px 0;
+  background-color: $white-bg-color;
+  padding: 40px 0;
 
-    .requirements-title {
-        font-size: 1.375rem;
-        text-transform: uppercase;
-        font-weight: 500;
-        font-style: italic;
+  .requirements-title {
+    font-size: 1.375rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: italic;
+  }
+}
 
-        span {
-            color: $secondary-text-color;
-        }
-    }
+.text {
+  &.about-us-summary {
+    font-size: 1.25rem;
+    padding: 80px 100px;
+    text-align: center;
+  }
 }

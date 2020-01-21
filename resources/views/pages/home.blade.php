@@ -7,7 +7,7 @@
 @section('content')
     <section id="purpose-intro-box">
         <div class="container">
-            <p class="intro-box-text">Когато изкупуваме Вашия автомобил, ние правим <span>всичко възможно</span>, за да получите <span>най-добрата ценова оферта</span> за бърза продажба</p>
+            <p class="intro-box-text">Когато изкупуваме Вашия автомобил, ние правим <span class="text-uppercase text-orange text-italic">всичко възможно</span>, за да получите <span>най-добрата ценова оферта</span> за бърза продажба</p>
         </div>
     </section>
 
@@ -113,7 +113,7 @@
         <div class="requirements-box">
             <div class="container">
                 <h2 class="requirements-title">
-                    Имаме само <span>две изисквания</span> към Вас:
+                    Имаме само <span class="text-orange">две изисквания</span> към Вас:
                 </h2>
 
                 <div class="custom-list-holder">

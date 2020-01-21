@@ -8,7 +8,7 @@
 <div class="container">
     <section id="about-us-intro-section">
         <p>
-            Изкупуваме автомобили с <span>ВСЯКАКВИ ПОВРЕДИ И ПРОБЛЕМИ</span> - 70% от цената.
+            Изкупуваме автомобили с <span class="text-orange text-uppercase">ВСЯКАКВИ ПОВРЕДИ И ПРОБЛЕМИ</span> - 70% от цената.
         </p>
 
         <p>
@@ -23,7 +23,7 @@
 
     <section id="about-us">
 
-        <div class="section-inner">
+        <div class="section-inner mt-0">
             <h2 class="title">
                 Главен приоритет
             </h2>
@@ -52,7 +52,133 @@
             </p>
         </div>
 
+        <div class="section-inner">
+            <h2 class="title">
+                Ние сме различни
+            </h2>
+
+            <p class="text">
+                Когато Ви предлагаме услугите си, ние правим това по малко по – различен от общоприетия начин.
+                Идеята в нашия бизнес е да осигурим бързо изкупуване на Вашия автомобил. Това става възможно с
+                прилагането на няколко лесни стъпки, които улесняват и Вас и нас, защото времето е ценно за всички ни.
+            </p>
+
+            <div class="custom-list-holder">
+                <ul class="custom-ul">
+                    <li>
+                        <span class="list-icon">
+                            <i class="fas fa-circle-notch"></i>
+                        </span>
+                        <span class="text">Изкупуваме автомобила Ви веднага</span>
+                    </li>
+                    <li>
+                        <span class="list-icon">
+                            <i class="fas fa-circle-notch"></i>
+                        </span>
+                        <span class="text">Не губите време</span>
+                    </li>
+                    <li>
+                        <span class="list-icon">
+                            <i class="fas fa-circle-notch"></i>
+                        </span>
+                        <span class="text">Плащаме Ви за него на момента</span>
+                    </li>
+                    <li>
+                        <span class="list-icon">
+                            <i class="fas fa-circle-notch"></i>
+                        </span>
+                        <span class="text">Не се налага да чакате, за да получите парите за колата си</span>
+                    </li>
+                    <li>
+                        <span class="list-icon">
+                            <i class="fas fa-circle-notch"></i>
+                        </span>
+                        <span class="text">Идваме да го вземем от местонахождението му</span>
+                    </li>
+                    <li>
+                        <span class="list-icon">
+                            <i class="fas fa-circle-notch"></i>
+                        </span>
+                        <span class="text">Имате възможност да вършите други, важни за Вас неща</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section-inner">
+            <h2 class="title">
+                Но защо избираме точно този модел?
+            </h2>
+
+            <p class="text">Защото...</p>
+
+            <div class="custom-list-holder">
+                <ul class="custom-ul">
+                    <li>
+                        <span class="list-icon">
+                            <i class="fas fa-circle-notch"></i>
+                        </span>
+                        <span class="text">Постоянно следим пазара и имаме поглед върху ценовото движение</span>
+                    </li>
+                    <li>
+                        <span class="list-icon">
+                            <i class="fas fa-circle-notch"></i>
+                        </span>
+                        <span class="text">Позволява да спестим Вашето време</span>
+                    </li>
+                    <li>
+                        <span class="list-icon">
+                            <i class="fas fa-circle-notch"></i>
+                        </span>
+                        <span class="text">Е бърз и лесен начин да се определи цената на даден автомобил</span>
+                    </li>
+                    <li>
+                        <span class="list-icon">
+                            <i class="fas fa-circle-notch"></i>
+                        </span>
+                        <span class="text">Осигурява прозрачност и Вие също можете да направите проверка</span>
+                    </li>
+                    <li>
+                        <span class="list-icon">
+                            <i class="fas fa-circle-notch"></i>
+                        </span>
+                        <span class="text">Изкупуването на автомобили става бързо, изкупените коли са оценени.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
+</div>
+
+<div class="requirements-box">
+    <div class="container">
+        <h2 class="requirements-title">
+            Имаме само <span class="text-orange">две изисквания</span> към Вас:
+        </h2>
+
+        <div class="custom-list-holder">
+            <ul class="custom-ul">
+                <li>
+                    <span class="list-icon">
+                        <i class="far fa-hand-point-right"></i>
+                    </span>
+                    <span class="text">Колата, която желаете да изкупим, да е производство след 1999 година (4х4 след 1993 година)</span>
+                </li>
+                <li>
+                    <span class="list-icon">
+                        <i class="far fa-hand-point-right"></i>
+                    </span>
+                    <span class="text">Колата да е цяла</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <p class="text about-us-summary">
+        Смятаме, че този подход е начин да изградим и поддържаме <span class="text-orange text-uppercase">отлични отношения</span> с всички наши клиенти.
+    </p>
 </div>
 
 @endsection
