@@ -8,7 +8,7 @@
 <div class="container">
     <section id="about-us-intro-section">
         <p>
-            Изкупуваме автомобили с <span class="text-orange text-uppercase">ВСЯКАКВИ ПОВРЕДИ И ПРОБЛЕМИ</span> - 70% от цената.
+            Изкупуваме автомобили с <span class="text-orange text-uppercase text-italic text-bold">ВСЯКАКВИ ПОВРЕДИ И ПРОБЛЕМИ</span> - 70% от цената.
         </p>
 
         <p>
@@ -177,7 +177,7 @@
 
 <div class="container">
     <p class="text about-us-summary">
-        Смятаме, че този подход е начин да изградим и поддържаме <span class="text-orange text-uppercase">отлични отношения</span> с всички наши клиенти.
+        Смятаме, че този подход е начин да изградим и поддържаме <span class="text-orange text-uppercase text-italic text-bold">отлични отношения</span> с всички наши клиенти.
     </p>
 </div>
 
