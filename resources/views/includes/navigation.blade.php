@@ -6,13 +6,13 @@
         </button>
         <div class="collapse navbar-collapse custom-navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link custom-nav-link active" href="\">Начало <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link custom-nav-link" href="about-us">За нас</a>
-            <a class="nav-item nav-link custom-nav-link" href="purchase-price">Изкупна цена</a>
-            <a class="nav-item nav-link custom-nav-link" href="#">Документи</a>
-            <a class="nav-item nav-link custom-nav-link" href="#">Обяви</a>
-            <a class="nav-item nav-link custom-nav-link" href="#">Новини</a>
-            <a class="nav-item nav-link custom-nav-link" href="#">Контакти</a>
+            <a class="{{ Request::is('/') ? 'active' : '' }} nav-item nav-link custom-nav-link" href="\">Начало</a>
+            <a class="{{ Request::is('about-us') ? 'active' : '' }} nav-item nav-link custom-nav-link" href="about-us">За нас</a>
+            <a class="{{ Request::is('purchase-price') ? 'active' : '' }} nav-item nav-link custom-nav-link" href="purchase-price">Изкупна цена</a>
+            <a class="{{ Request::is('documents') ? 'active' : '' }} nav-item nav-link custom-nav-link" href="documents">Документи</a>
+            <a class="{{ Request::is('offers') ? 'active' : '' }} nav-item nav-link custom-nav-link" href="offers">Обяви</a>
+            <a class="{{ Request::is('news') ? 'active' : '' }} nav-item nav-link custom-nav-link" href="news">Новини</a>
+            <a class="{{ Request::is('contacts') ? 'active' : '' }} nav-item nav-link custom-nav-link" href="contacts">Контакти</a>
           </div>
         </div>
     </nav>
