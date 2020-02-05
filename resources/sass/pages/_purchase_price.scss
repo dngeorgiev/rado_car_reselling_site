@@ -1,5 +1,13 @@
 @import "node_modules/dropzone/dist/min/dropzone.min";
 
+#purchase-price-intro-box {
+    background-color: $secondary-bg-color;
+    color: $tertiary-text-color;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 40px 0;
+}
+
 #online-evaluation {
     background-color: $white-bg-color;
     padding: 80px 0;
