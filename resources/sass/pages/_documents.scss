@@ -1,0 +1,41 @@
+#documents {
+    margin: 60px 0;
+
+    .documents-card {
+        background: $white-bg-color;
+        padding: 40px;
+        margin: 20px;
+        border-radius: 15px;
+        box-shadow: -9px 9px 9px -2px rgba(0, 0, 0, 0.33);
+        text-align: center;
+        min-height: calc(100% - 40px);
+
+        .icon-holder {
+            width: 28%;
+            margin: 0 auto;
+        }
+
+        .documents-card-title {
+            letter-spacing: 2px;
+            margin: 20px 0;
+        }
+
+        ul {
+            text-align: left;
+            // list-style-type: none;
+            // padding: 0;
+
+            li {
+                margin: 20px 0;
+
+                &:first-of-type {
+                    margin-top: 0;
+                }
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

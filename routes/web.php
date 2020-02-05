@@ -23,9 +23,9 @@ Route::get('/purchase-price', function () {
     return view('pages/purchase_price');
 });
 
-// Route::get('/documents', function () {
-//     return view('pages/documents');
-// });
+Route::get('/documents', function () {
+    return view('pages/documents');
+});
 
 // Route::get('/offers', function () {
 //     return view('pages/offers');

@@ -32,11 +32,15 @@
         background-position: center;
 
         &.page-about-us {
-            background-image: url("images/backgrounds/about_us_page_bg_img.jpg");
+            background-image: url("about_us_page_bg_img.jpg");
         }
 
         &.page-purchase-price {
-            background-image: url("images/backgrounds/purchase_price_bg_img.jpg");
+            background-image: url("purchase_price_bg_img.jpg");
+        }
+
+        &.page-documents {
+            background-image: url("documents_bg_img.jpg");
         }
     }
 
