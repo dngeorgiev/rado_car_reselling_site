@@ -27,17 +27,17 @@ Route::get('/documents', function () {
     return view('pages/documents');
 });
 
-// Route::get('/offers', function () {
-//     return view('pages/offers');
-// });
+Route::get('/offers', function () {
+    return view('pages/offers');
+});
 
-// Route::get('/news', function () {
-//     return view('pages/news');
-// });
+Route::get('/news', function () {
+    return view('pages/news');
+});
 
-// Route::get('/contacts', function () {
-//     return view('pages/contacts');
-// });
+Route::get('/contacts', function () {
+    return view('pages/contacts');
+});
 
 
 

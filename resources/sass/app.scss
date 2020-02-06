@@ -14,64 +14,65 @@
 @import "pages/about_us";
 @import "pages/purchase_price";
 @import "pages/documents";
+@import "pages/offers";
 
 body {
-    font-family: "Roboto", Arial, serif;
-    font-size: 16px;
-    background-color: $primary-bg-color;
+  font-family: "Roboto", Arial, serif;
+  font-size: 16px;
+  background-color: $primary-bg-color;
 }
 
 .section-inner {
-    margin: 80px 0;
+  margin: 80px 0;
 }
 
 .title {
-    font-size: 1.5rem;
-    color: $primary-text-color;
-    text-transform: uppercase;
-    padding-bottom: 8px;
-    border-bottom: 2px solid $primary-text-color;
+  font-size: 1.5rem;
+  color: $primary-text-color;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  border-bottom: 2px solid $primary-text-color;
 }
 
 .text {
-    padding: 20px 0;
-    font-size: 1.125rem;
+  padding: 20px 0;
+  font-size: 1.125rem;
 }
 
 .text-bold {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .text-italic {
-    font-style: italic;
+  font-style: italic;
 }
 
 .text-underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .text-orange {
-    color: $secondary-text-color;
+  color: $secondary-text-color;
 }
 
 .text-upercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .custom-ul {
-    padding: 0;
-    list-style-type: none;
-    margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
 
-    li {
-        padding: 6px 0;
+  li {
+    padding: 6px 0;
+  }
+
+  .list-icon {
+    margin-right: 15px;
+
+    i {
+      font-size: 1.2rem;
     }
-
-    .list-icon {
-        margin-right: 15px;
-
-        i {
-            font-size: 1.2rem;
-        }
-    }
+  }
 }
