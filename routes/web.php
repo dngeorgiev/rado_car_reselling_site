@@ -31,6 +31,10 @@ Route::get('/offers', function () {
     return view('pages/offers');
 });
 
+Route::get('/offers/1', function () {
+    return view('pages/single_offer');
+});
+    
 Route::get('/news', function () {
     return view('pages/news');
 });

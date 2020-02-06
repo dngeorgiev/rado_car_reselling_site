@@ -4,7 +4,7 @@ page-about-us
 page-purchase-price
 @elseif (\Request::is('documents'))
 page-documents
-@elseif (\Request::is('offers'))
+@elseif (\Request::is('offers') || \Request::is('offers/1'))
 page-offers
 @elseif (\Request::is('news'))
 page-news
@@ -18,6 +18,7 @@ page-contacts
             @elseif (\Request::is('purchase-price')) Изкупна цена
             @elseif (\Request::is('documents')) Нужни документи
             @elseif (\Request::is('offers')) Обяви
+            @elseif (\Request::is('offers/1')) Обявa №1
             @elseif (\Request::is('news')) Новини
             @elseif (\Request::is('cntacts')) Контакти
             @endif

@@ -1,70 +1,118 @@
-#documents {
-  .offer-card {
-    position: relative;
-    overflow: hidden;
-    height: 360px;
-    margin: 15px 0;
-    border-radius: 15px;
-    box-shadow: -9px 9px 9px -2px rgba(0, 0, 0, 0.33);
-    background-color: $white-bg-color;
-    cursor: pointer;
+#offers {
+    .offer-card {
+        position: relative;
+        overflow: hidden;
+        height: 360px;
+        margin: 15px 0;
+        border-radius: 15px;
+        box-shadow: -9px 9px 9px -2px rgba(0, 0, 0, 0.33);
+        background-color: $white-bg-color;
+        cursor: pointer;
 
-    &:hover {
-      .image {
-        transform: translateY(-100%);
-      }
+        &:hover {
+            .image {
+                transform: translateY(-100%);
+            }
 
-      .content {
-        height: 100%;
-        transform: translateY(-75%);
+            .content {
+                height: 100%;
+                transform: translateY(-75%);
+
+                .additional-specs,
+                .additional-info {
+                    transform: translateY(0);
+                }
+            }
+        }
+    }
+
+    .image {
+        transition: 0.3s all;
+        height: 75%;
+
+        img {
+            border-radius: 15px 15px 0 0;
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+
+    .content {
+        position: absolute;
+        width: 100%;
+        height: 25%;
+        padding: 15px;
+        transition: 0.3s all;
+
+        .title-price-holder {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: 1.25rem;
+
+            .card-title {
+                margin-bottom: 0;
+            }
+        }
+
+        .model {
+            color: rgb(145, 142, 142);
+        }
 
         .additional-specs,
         .additional-info {
-          transform: translateY(0);
+            margin-top: 20px;
+            font-weight: 300;
+            transform: translateY(20%);
+            transition: 0.3s all;
         }
-      }
     }
-  }
+}
 
-  .image {
-    transition: 0.3s all;
-    height: 75%;
-
-    img {
-      border-radius: 15px 15px 0 0;
-      object-fit: cover;
-      height: 100%;
-    }
-  }
-
-  .content {
-    position: absolute;
-    width: 100%;
-    height: 25%;
-    padding: 15px;
-    transition: 0.3s all;
-
-    .title-price-holder {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      font-size: 1.25rem;
-
-      .card-title {
-        margin-bottom: 0;
-      }
+#single-offer {
+    margin: 80px 0;
+    .specs {
+        font-weight: 300;
+        margin-top: 30px;
     }
 
-    .model {
-      color: rgb(145, 142, 142);
+    .additional-info,
+    .gallery {
+        margin-top: 30px;
     }
 
-    .additional-specs,
-    .additional-info {
-      margin-top: 20px;
-      font-weight: 300;
-      transform: translateY(20%);
-      transition: 0.3s all;
+    .single-offer-gallery-img {
+        position: relative;
+        display: block;
+        margin: 15px 0;
+        box-shadow: -9px 9px 9px -2px rgba(0, 0, 0, 0.33);
+        transition: 0.3s all;
+
+        &:after {
+            content: "";
+            font-family: "Font Awesome\ 5 Free";
+            font-weight: 900;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $tertiary-text-color;
+            transition: 0.3s all;
+        }
+
+        &:hover,
+        &:active,
+        &:focus {
+            &:after {
+                content: "\f00e";
+                background-color: rgba(0, 0, 0, 0.6);
+                font-size: 2rem;
+            }
+        }
     }
-  }
 }

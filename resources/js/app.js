@@ -4,9 +4,12 @@ require('./bootstrap');
 
 window.FloatLabels = require('../../node_modules/float-labels.js/dist/float-labels.min.js');
 require('../../node_modules/dropzone/dist/min/dropzone.min.js');
+require('../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js');
 
 $(document).ready(function () {
     var floatlabels = new FloatLabels('#online-evaluation-form', {
         style: 1
     });
+
+    $(".single-offer-gallery-img").fancybox();
 });
