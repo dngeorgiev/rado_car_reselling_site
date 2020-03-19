@@ -6,7 +6,7 @@ page-purchase-price
 page-documents
 @elseif (\Request::is('offers') || \Request::is('offers/1'))
 page-offers
-@elseif (\Request::is('news'))
+@elseif (\Request::is('news') || \Request::is('news/1'))
 page-news
 @elseif (\Request::is('contacts'))
 page-contacts
@@ -20,6 +20,7 @@ page-contacts
             @elseif (\Request::is('offers')) Обяви
             @elseif (\Request::is('offers/1')) Обявa №1
             @elseif (\Request::is('news')) Новини
+            @elseif (\Request::is('news/1')) Името на новината бла бла бла
             @elseif (\Request::is('cntacts')) Контакти
             @endif
         </h1>

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('header')
-    @include('includes.secondary_header')
+@include('includes.secondary_header')
 @endsection
 
 @section('content')
@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-6 col-lg-4">
-                <div class="offer-card">
+                <a class="offer-card" href="{{ route('offers.single-offer', 1) }}">
                     <div class="image">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </div>
@@ -33,13 +33,14 @@
                             <div class="prop">Скорости: <span class="prop-inner text-bold">5</span></div>
                         </div>
                         <div class="additional-info">
-                            Допълнителен текст, който е ограничен до 100 символа с добавени три точки накрая. допълнителен текст...
+                            Допълнителен текст, който е ограничен до 100 символа с добавени три точки накрая.
+                            допълнителен текст...
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4">
-                <div class="offer-card">
+                <a href="{{ route('offers.single-offer', 1) }}" class="offer-card">
                     <div class="image">
                         <img src="{{ asset('images/backgrounds/offers_bg_img.jpg') }}" alt="" class="img-fluid">
                     </div>
@@ -63,13 +64,14 @@
                             <div class="prop">Скорости: <span class="prop-inner text-bold">5</span></div>
                         </div>
                         <div class="additional-info">
-                            Допълнителен текст, който е ограничен до 100 символа с добавени три точки накрая. допълнителен текст...
+                            Допълнителен текст, който е ограничен до 100 символа с добавени три точки накрая.
+                            допълнителен текст...
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4">
-                <div class="offer-card">
+                <a href="{{ route('offers.single-offer', 1) }}" class="offer-card">
                     <div class="image">
                         <img src="{{ asset('images/backgrounds/documents_bg_img.jpg') }}" alt="" class="img-fluid">
                     </div>
@@ -93,13 +95,14 @@
                             <div class="prop">Скорости: <span class="prop-inner text-bold">5</span></div>
                         </div>
                         <div class="additional-info">
-                            Допълнителен текст, който е ограничен до 100 символа с добавени три точки накрая. допълнителен текст...
+                            Допълнителен текст, който е ограничен до 100 символа с добавени три точки накрая.
+                            допълнителен текст...
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4">
-                <div class="offer-card">
+                <a href="{{ route('offers.single-offer', 1) }}" class="offer-card">
                     <div class="image">
                         <img src="{{ asset('images/backgrounds/offers_bg_img.jpg') }}" alt="" class="img-fluid">
                     </div>
@@ -123,13 +126,14 @@
                             <div class="prop">Скорости: <span class="prop-inner text-bold">5</span></div>
                         </div>
                         <div class="additional-info">
-                            Допълнителен текст, който е ограничен до 100 символа с добавени три точки накрая. допълнителен текст...
+                            Допълнителен текст, който е ограничен до 100 символа с добавени три точки накрая.
+                            допълнителен текст...
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4">
-                <div class="offer-card">
+                <a href="{{ route('offers.single-offer', 1) }}" class="offer-card">
                     <div class="image">
                         <img src="{{ asset('images/backgrounds/documents_bg_img.jpg') }}" alt="" class="img-fluid">
                     </div>
@@ -153,10 +157,11 @@
                             <div class="prop">Скорости: <span class="prop-inner text-bold">5</span></div>
                         </div>
                         <div class="additional-info">
-                            Допълнителен текст, който е ограничен до 100 символа с добавени три точки накрая. допълнителен текст...
+                            Допълнителен текст, който е ограничен до 100 символа с добавени три точки накрая.
+                            допълнителен текст...
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>

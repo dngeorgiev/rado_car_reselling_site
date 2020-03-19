@@ -8,12 +8,12 @@
 <div class="breadcrumbs">
     <div class="container">
         <div class="breadcrumbs-text">
-            Обяви > title of card
+        <a href="{{ route('offers') }}"> Обяви </a> > title of card
         </div>
     </div>
 </div>
-<div class="container">
-    <section id="single-offer">
+<section id="single-offer">
+    <div class="container">
         <div class="secondary-title">
             <h2>Chrysler</h2>
             <div class="inner-secondary-title">
@@ -45,47 +45,47 @@
             </div>
             <div class="row">
                 <div class="col-3">
-                    <a class="single-offer-gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
+                    <a class="gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-3">
-                    <a class="single-offer-gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
+                    <a class="gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-3">
-                    <a class="single-offer-gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
+                    <a class="gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-3">
-                    <a class="single-offer-gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
+                    <a class="gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-3">
-                    <a class="single-offer-gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
+                    <a class="gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-3">
-                    <a class="single-offer-gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
+                    <a class="gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-3">
-                    <a class="single-offer-gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
+                    <a class="gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-3">
-                    <a class="single-offer-gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
+                    <a class="gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-3">
-                    <a class="single-offer-gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
+                    <a class="gallery-img" data-fancybox="gallery" href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>

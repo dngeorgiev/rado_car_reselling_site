@@ -11,5 +11,9 @@ $(document).ready(function () {
         style: 1
     });
 
-    $(".single-offer-gallery-img").fancybox();
+    var floatlabels = new FloatLabels('#comment-form', {
+        style: 1
+    });
+
+    $(".gallery-img").fancybox();
 });
