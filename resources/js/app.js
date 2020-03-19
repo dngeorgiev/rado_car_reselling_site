@@ -15,5 +15,9 @@ $(document).ready(function () {
         style: 1
     });
 
+    var floatlabels = new FloatLabels('#contacts-form', {
+        style: 1
+    });
+
     $(".gallery-img").fancybox();
 });
