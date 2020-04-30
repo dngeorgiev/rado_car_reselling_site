@@ -1,9 +1,11 @@
 <div class="navigation-holder">
-    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+    <nav class="navbar navbar-expand-lg custom-navbar">
         <a class="navbar-brand custom-navbar-brand" href="\">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars"></i>
+            </span>
         </button>
         <div class="collapse navbar-collapse custom-navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">

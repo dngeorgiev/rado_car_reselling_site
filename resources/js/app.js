@@ -1,6 +1,7 @@
 window.$ = window.jQuery = require('jquery');
-window.Popper = require('popper.js').default;
+// window.Popper = require('popper.js').default;
 require('./bootstrap');
+require('../../node_modules/bootstrap/dist/js/bootstrap')
 
 window.FloatLabels = require('../../node_modules/float-labels.js/dist/float-labels.min.js');
 require('../../node_modules/dropzone/dist/min/dropzone.min.js');
