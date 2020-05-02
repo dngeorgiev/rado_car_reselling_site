@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@include('includes.navigation')
+
 @section('header')
     @include('includes.secondary_header')
 @endsection
@@ -91,8 +93,7 @@
                 </div>
             </div>
         </div>
-
-    </section>
-</div>
+    </div>
+</section>
 
 @endsection

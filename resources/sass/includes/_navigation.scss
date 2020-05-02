@@ -1,6 +1,9 @@
 .navigation-holder {
-  background-color: $secondary-bg-color;
-  opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    z-index: 300;
+    background-color: $secondary-bg-color;
+    opacity: 0.8;
 
   @media screen and (max-width: 991px) {
     opacity: 1;

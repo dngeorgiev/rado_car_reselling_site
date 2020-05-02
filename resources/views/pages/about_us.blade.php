@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@include('includes.navigation')
+
 @section('header')
     @include('includes.secondary_header')
 @endsection
@@ -48,7 +50,7 @@
             </p>
 
             <p class="text">
-                <span class="text-bold text-italic">Искаме да подчертаем, че част от тези услуги е и вземането на Вашата кола от местонахождението ѝ.<span>
+                <span class="text-bold text-italic">Искаме да подчертаем, че част от тези услуги е и вземането на Вашата кола от местонахождението ѝ.</span>
             </p>
         </div>
 

@@ -11,7 +11,6 @@ page-news
 @elseif (\Request::is('contacts'))
 page-contacts
 @endif">
-    @include('includes.navigation')
     <div class="page-title-holder">
         <h1 class="page-title">
             @if (\Request::is('about-us')) За нас
