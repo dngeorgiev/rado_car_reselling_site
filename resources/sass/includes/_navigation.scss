@@ -21,9 +21,9 @@
     .custom-nav-link {
       color: $tertiary-text-color;
       text-transform: uppercase;
-      font-size: 1.125rem;
-      padding: 25px 20px;
+      padding: 20px;
       position: relative;
+        font-size: 1rem;
 
       &.active {
         color: $secondary-text-color;
@@ -50,22 +50,47 @@
         padding: 25px 15px;
       }
 
-      @media screen and (max-width: 991px) {
-        padding: 15px;
-        text-align: center;
+        @media screen and (max-width: 991px) {
+            text-align: center;
+        }
+
+      @media screen and (min-width: 426px) and (max-width: 767px) {
+        padding: 12px;
+        font-size: 0.9rem;
       }
+
+        @media screen and (max-width: 425px) {
+            padding: 10px;
+            font-size: 0.8rem;
+        }
     }
   }
 
-  .navbar-toggler-icon {
+    .navbar-toggler {
+        padding: 0;
+    }
+
+  .custom-navbar-toggler-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
     i {
       color: $primary-bg-color;
       font-size: 28px;
+
+        @media screen and (min-width: 426px) and (max-width: 768px) {
+            font-size: 24px;
+        }
+
+        @media screen and (max-width: 425px) {
+            font-size: 22px;
+        }
     }
   }
 
   @media screen and (max-width: 991px) {
-    padding: 10px 15px;
+    padding: 5px 15px;
   }
 }
 

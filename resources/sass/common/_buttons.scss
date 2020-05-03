@@ -5,6 +5,16 @@
     margin-top: 30px;
 }
 
+.btn {
+    @media screen and (max-width: 425px) {
+        font-size: 0.8rem;
+    }
+
+    @media screen and (min-width: 425px) and (max-width: 767px) {
+        font-size: 0.9rem;
+    }
+}
+
 .primary-btn {
     background-color: $tertiary-bg-color;
     border-color: $tertiary-bg-color;

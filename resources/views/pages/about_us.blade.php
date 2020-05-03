@@ -1,6 +1,5 @@
 @extends('layouts.app')
 
-@include('includes.navigation')
 
 @section('header')
     @include('includes.secondary_header')

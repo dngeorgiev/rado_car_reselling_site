@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
-@include('includes.navigation')
-
 @section('header')
     @include('includes.secondary_header')
 @endsection
@@ -10,7 +8,7 @@
     <section id="documents">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
                     <div class="documents-card individual">
                         <div class="icon-holder">
                             <img src="{{ asset('images/icons/boss.svg') }}" alt="Физическо лице">
@@ -31,7 +29,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
                     <div class="documents-card legal-entity">
                         <div class="icon-holder">
                             <img src="{{ asset('images/icons/suitcase.svg') }}" alt="Юридическо лице">

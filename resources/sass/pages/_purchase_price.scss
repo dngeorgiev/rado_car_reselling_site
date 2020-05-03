@@ -13,12 +13,22 @@
     padding: 80px 0;
 
     #online-evaluation-form {
-        padding: 50px 0;
+        padding: 50px 0 0 0;
+    }
+}
+
+.purchase-price-box-text {
+    @media screen and (max-width: 767px) {
+        font-size: 1rem;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 1.3rem;
     }
 }
 
 .purchase-price-cards-holder {
-    padding: 40px 0;
+    padding: 40px 0 0 0;
 
     .price-card {
         display: flex;
@@ -26,6 +36,7 @@
         justify-content: center;
         align-items: center;
         padding: 15px;
+        margin-bottom: 15px;
         background-color: white;
         border-radius: 20px;
         box-shadow: -9px 9px 9px -2px rgba(0, 0, 0, 0.33);
@@ -35,12 +46,28 @@
             font-size: 3rem;
             color: $secondary-text-color;
             font-weight: 500;
+
+            @media screen and (max-width: 767px) {
+                font-size: 2rem;
+            }
         }
 
         .price-text {
             font-size: 1.375rem;
             text-align: center;
             font-weight: 300;
+
+            @media screen and (max-width: 767px) {
+                font-size: 0.9rem;
+            }
+
+            @media screen and (min-width: 768px) and (max-width: 1024px) {
+                font-size: 1rem;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            min-height: auto;
         }
     }
 }

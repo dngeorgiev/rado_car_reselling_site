@@ -21,4 +21,20 @@ $(document).ready(function () {
     });
 
     $(".gallery-img").fancybox();
+
+    $('.navbar-toggler').on('click', function () {
+        let overlay = $('#overlay');
+        overlay.toggleClass('show');
+    });
+
+    $(document).click(function (event) {
+        let clickover = $(event.target);
+        console.log('overlay has class show', !clickover.hasClass('show'))
+        let _opened = $('.navbar-collapse').hasClass('show');
+        console.log('menu is opened', _opened)
+        if (_opened === true && !clickover.hasClass("show") === false) {
+            $('.navbar-collapse').collapse('hide');
+            $('#overlay').removeClass('show');
+        }
+    });
 });

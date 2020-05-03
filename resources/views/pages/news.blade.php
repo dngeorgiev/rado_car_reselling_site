@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
-@include('includes.navigation')
-
 @section('header')
 @include('includes.secondary_header')
 @endsection
@@ -12,7 +10,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="news-box">
-                    <div class="thumb">
+                    <div class="thumb d-none d-sm-block">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </div>
                     <div class="content">
@@ -23,10 +21,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan libero augue,
                             blandit volutpat massa viverra eu.
                             Donec egestas consectetur felis eu mattis. Mauris fringilla arcu id ex bibendum tincidunt.
-                            Maecenas sit amet arcu suscipit,
-                            molestie eros sit amet, semper quam. Aliquam non luctus nunc, sit amet dictum ex. Donec
-                            felis felis, venenatis sit amet ex at,
-                            auctor egestas ante. Quisque at mi nunc. Vestibulum aliquet aliquam porta.
+                            Maecenas sit amet arcu suscipit...
                         </div>
                         <div class="more-info">
                             <span>12/11/2019</span>
@@ -40,7 +35,7 @@
 
             <div class="col-12">
                 <div class="news-box">
-                    <div class="thumb">
+                    <div class="thumb d-none d-sm-block">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </div>
                     <div class="content">
@@ -51,10 +46,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan libero augue,
                             blandit volutpat massa viverra eu.
                             Donec egestas consectetur felis eu mattis. Mauris fringilla arcu id ex bibendum tincidunt.
-                            Maecenas sit amet arcu suscipit,
-                            molestie eros sit amet, semper quam. Aliquam non luctus nunc, sit amet dictum ex. Donec
-                            felis felis, venenatis sit amet ex at,
-                            auctor egestas ante. Quisque at mi nunc. Vestibulum aliquet aliquam porta.
+                            Maecenas sit amet arcu suscipit...
                         </div>
                         <div class="more-info">
                             <span>12/11/2019</span>
@@ -76,10 +68,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan libero augue,
                             blandit volutpat massa viverra eu.
                             Donec egestas consectetur felis eu mattis. Mauris fringilla arcu id ex bibendum tincidunt.
-                            Maecenas sit amet arcu suscipit,
-                            molestie eros sit amet, semper quam. Aliquam non luctus nunc, sit amet dictum ex. Donec
-                            felis felis, venenatis sit amet ex at,
-                            auctor egestas ante. Quisque at mi nunc. Vestibulum aliquet aliquam porta.
+                            Maecenas sit amet arcu suscipit...
                         </div>
                         <div class="more-info">
                             <span>12/11/2019</span>

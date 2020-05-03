@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
-@include('includes.navigation')
-
 @section('header')
 @include('includes.secondary_header')
 @endsection
@@ -57,55 +55,55 @@
                 Галерия
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <a class="gallery-img" data-fancybox="gallery"
                         href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <a class="gallery-img" data-fancybox="gallery"
                         href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <a class="gallery-img" data-fancybox="gallery"
                         href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <a class="gallery-img" data-fancybox="gallery"
                         href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <a class="gallery-img" data-fancybox="gallery"
                         href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <a class="gallery-img" data-fancybox="gallery"
                         href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <a class="gallery-img" data-fancybox="gallery"
                         href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <a class="gallery-img" data-fancybox="gallery"
                         href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <a class="gallery-img" data-fancybox="gallery"
                         href="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}">
                         <img src="{{ asset('images/backgrounds/about_us_page_bg_img.jpg') }}" alt="" class="img-fluid">

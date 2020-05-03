@@ -3,7 +3,7 @@
         <a class="navbar-brand custom-navbar-brand" href="\">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
+            <span class="navbar-toggler-icon custom-navbar-toggler-icon">
                 <i class="fas fa-bars"></i>
             </span>
         </button>

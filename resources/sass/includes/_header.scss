@@ -1,5 +1,12 @@
 #header {
   // Main header
+    .custom-main-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
   .main-header-content-holder {
     background-image: url("images/backgrounds/photo-of-red-suv-on-dirt-road-1592261.jpg");
     background-repeat: no-repeat;
@@ -9,6 +16,7 @@
   }
 
   .main-page-title-holder {
+      margin-top: -80px;
     padding: 60px 50px;
     background-color: rgba(255, 255, 255, 0.6);
     transform: translateY(70px);
@@ -23,13 +31,39 @@
         font-weight: 900;
         font-style: italic;
       }
+
+        @media screen and (max-width: 425px) {
+            font-size: 1.2rem;
+        }
+
+        @media screen and (min-width: 425px) and (max-width: 767px) {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
     }
+
+      @media screen and (max-width: 767px) {
+          padding: 30px;
+          text-align: center;
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+          padding: 40px;
+      }
   }
 
   .header-content-holder {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-top: 80px;
 
     &.page-about-us {
       background-image: url("about_us_page_bg_img.jpg");
@@ -54,6 +88,10 @@
     &.page-contacts {
       background-image: url("about_us_page_bg_img.jpg");
     }
+
+      @media screen and (max-width: 991px) {
+          padding-top: 60px;
+      }
   }
 
   // Secondary header
@@ -70,6 +108,22 @@
       background-color: rgba(255, 255, 255, 0.6);
       padding: 15px 0;
       font-size: 2rem;
+
+        @media screen and (max-width: 425px) {
+            font-size: 1.3rem;
+        }
+
+        @media screen and (min-width: 425px) and (max-width: 1024px) {
+            font-size: 1.5rem;
+        }
     }
+
+      @media screen and (max-width: 425px) {
+          min-height: 180px;
+      }
+
+      @media screen and (min-width: 425px) and (max-width: 768px) {
+          min-height: 200px;
+      }
   }
 }
