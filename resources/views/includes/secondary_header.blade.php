@@ -19,7 +19,7 @@ page-contacts
             @elseif (\Request::is('offers')) Обяви
             @elseif (\Request::is('offers/1')) Обявa №1
             @elseif (\Request::is('news')) Новини
-            @elseif (\Request::is('news/1')) Името на новината бла бла бла
+            @elseif (\Request::is('news/1')) Новини
             @elseif (\Request::is('contacts')) Контакти
             @endif
         </h1>
